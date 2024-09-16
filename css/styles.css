@@ -1,0 +1,167 @@
+*{font-family:sans-serif!important}@keyframes form-appear{0%{transform:translateY(2000px)}30%{transform:translateY(100px)}to{transform:translateY(0)}}[scroll=goScrollToForm]{cursor:pointer}*{box-sizing:border-box}body{margin:0!important;background-color:#fff}h1,h2,h3,p,ul{margin:0}a,li{text-decoration:none}a{cursor:pointer;color:inherit}.ctContainer{margin:0 auto;width:100%;background:0 0}.ctContent{max-width:1025px;margin:0 auto;box-sizing:border-box}.ctContent,.ctContentFluid{width:100%;background:#fff}.coloredText{margin:0 auto;padding:5px;background-color:#fff}.coloredText__container{margin:0;border:1px solid #ff7250;padding:15px;box-sizing:border-box;background-color:#ffeca6;padding:15px 15px 15px 25px}.coloredText__title{padding:0 0 0 15px;font-family:sans-serif;font-weight:700;font-size:24px;line-height:1.3}.coloredText ul{padding:10px 10px 0}.coloredText li,.coloredText__listSub{font-family:sans-serif;font-size:14px;line-height:16px}.coloredText li{padding:10px 0;font-weight:700}.coloredText__listSub{font-weight:400}.menHealthCom{display:flex;flex-direction:row;width:100%;box-sizing:border-box}.menHealthCom__wrapper{display:flex;padding:10px 55px 30px;width:100%}.menHealthCom__avatarWrapper{margin-right:21px;width:100%;height:78px;max-width:78px}.menHealthCom__avatar{width:100%;height:100%;object-fit:cover}.menHealthCom__info{width:100%}.menHealthCom__comment,.menHealthCom__name{margin:0;font-family:sans-serif;font-weight:700;font-style:normal;font-size:14px;line-height:140%;color:#000}.menHealthCom__comment{font-weight:400}.menHealthCom:first-child{padding-top:0}.menHealthCom:last-child{padding-bottom:0}.goToForm{display:none;padding:10px;width:100%;text-align:center;text-transform:uppercase;color:#fff;background:red}.ctContentFluid--red{background:red}.mensHealthAside{float:right;margin-left:auto;width:29%}.mensHealthAside__title{margin:0 0 24px;font-family:sans-serif;font-weight:700;font-size:18px;line-height:18px;text-align:center;color:#6d6057}.mensHealthAside__newsWrapper ul{padding-left:0}.mensHealthAside__newsWrapper ul li{display:flex;flex-direction:column;align-items:center;margin-bottom:25px}.mensHealthAside__newsImageWrapper{display:inline-block;padding:0 20px;width:100%;max-width:280px}.mensHealthAside__newsImage{width:100%}.mensHealthAside__newsText{margin:15px 0 11px;font-family:sans-serif;font-weight:400;font-size:22px;line-height:22px;text-align:center}.mensHealthContentImg{width:70%}.mensHealthContentImg__imgItem{width:100%;height:100%;box-shadow:#888 0 0 10px;object-fit:cover}.mensHealthContentImg__imgWrapper{margin:0 auto;padding:15px;width:100%;max-width:350px}.mensHealthDoors__form{display:flex;z-index:1;flex-direction:column;align-items:center;justify-content:center;margin:10px auto 40px;padding:20px 20px 5px;box-sizing:border-box;text-align:center;background:#fff;animation:.6s ease 0s normal none 1 running form-appear}.mensHealthDoors__formImgWrapper{position:relative;width:100%;height:fit-content;max-width:215px}.mensHealthDoors__formImg{width:100%;height:100%;object-fit:contain}.mensHealthDoors__timer{display:flex;flex-direction:column;align-items:center;margin:0;width:100%}.mensHealthDoors__timer .countdownTimerBox{display:flex;justify-content:center;margin:0 auto 20px;max-width:10%}.mensHealthDoors__timer .countdownTimerBox .minutes,.mensHealthDoors__timer .countdownTimerBox .seconds{font-family:sans-serif;font-weight:700;font-size:17px;line-height:32px;transition:.2s}.mensHealthDoors__timer .countdownTimerBox .minutesBox,.mensHealthDoors__timer .countdownTimerBox .secondsBox{display:flex}.mensHealthDoors__timer .countdownTimerBox .timeBg{display:block;margin:0;padding:0;width:unset;height:unset;line-height:32px;text-align:center;color:red;background:#fff}.mensHealthDoors__timer .countdownTimerBox .timeBg:nth-child(2n){margin-right:0}.mensHealthDoors__timer .countdownTimerBox .ending{display:block;margin:0 5px;padding:0;font-family:sans-serif;font-weight:700;font-size:17px;line-height:32px;text-align:center;color:#000;transition:.2s}.mensHealthDoors__formTitle{margin:10px 0 0;font-family:sans-serif;font-weight:700;font-size:18px;line-height:25px;color:#222}.mensHealthDoors__formWrapper{display:flex;flex-direction:column;align-items:center;justify-content:center;width:300px;max-width:100%}.mensHealthDoors__formWrapper input{font-size:16px}.mensHealthDoors__formBtn,.mensHealthDoors__formName,.mensHealthDoors__formPhone{display:flex;outline:0;width:100%;height:auto;max-width:300px;box-sizing:border-box;font-style:normal;line-height:20px}.mensHealthDoors__formName,.mensHealthDoors__formPhone{flex-direction:column;align-items:flex-start;margin:7px 0;border:1px solid #000;border-radius:4px;padding:15px;box-shadow:none;font-weight:400;font-size:14px;transition:.25s}.mensHealthDoors__formBtn{align-items:center;justify-content:center;margin:15px 0 0;border:0;border-radius:5px;padding:15px 35px;box-shadow:0 4px 3px #242120;font-family:sans-serif;font-weight:700;font-size:16px;text-align:center;text-decoration:none;color:#fff;background:red;cursor:pointer}.mensHealthText{width:100%}.mensHealthText__footerBtnWrapper{display:flex;align-items:center;justify-content:center;margin:25px 0;padding:0 10px;text-align:center}.mensHealthText ul{padding-left:12px}.mensHealthText ul li{padding:0 0 11px}.mensHealthText__simpleText{padding:0 15px 11px;font-family:sans-serif;font-weight:400;font-size:22px;line-height:26px}.mensHealthText__simpleText--footerBtn{display:inline-block;border:0;border-radius:2.5px;padding:0 25px;box-shadow:none;font-weight:700;font-size:18px;line-height:50px;color:#fff;background:#e6373a}.mensHealthText__simpleText--commentsTitle{font-family:sans-serif;font-weight:700;font-size:18px;line-height:18px;color:#03658c}.mensHealthText__simpleText--bold{font-weight:700}.mensHealthText a.mensHealthText__simpleText--footerBtn:hover{background-color:#d9292d}.mensHealthText__mainTitle{padding:10px 15px;font-family:sans-serif;font-weight:400;font-size:36px;line-height:35px;color:#dd252a}.mensHealthAside__newsText--198933,.mensHealthAside__newsText--251091,.mensHealthAside__newsText--478598{font-size:16px;line-height:20.8px;font-weight:700}.mensHealthText__mainTitle--408756,.mensHealthText__simpleText--647624{font-weight:700}.mensHealthContentImg__imgWrapper--679546{max-width:700px}.mensHealthContentImg__imgItem--179711{height:100%}.mensHealthText__simpleText--465627,.mensHealthText__simpleText--831380{font-style:oblique;font-weight:700;text-align:center}.mensHealthText__simpleText--831380{font-size:19px;line-height:24.7px}.mensHealthText__simpleText--185101{font-size:24px;line-height:31.2px;font-weight:700;color:#ff0004}.mensHealthText--880101,.mensHealthText__simpleText--690326{font-weight:700}.mensHealthContentImg__imgWrapper--569389{max-width:400px}.mensHealthContentImg__imgItem--899940{height:100%}.mensHealthText--725656{font-weight:700}.mensHealthText__simpleText--367800{font-size:24px;line-height:31.2px;font-weight:700;color:#ff0004}.mensHealthText--339782,.mensHealthText--966868{font-weight:700}.mensHealthText__simpleText--378498{font-size:24px;line-height:31.2px;font-weight:700;color:#ff0004}.mensHealthContentImg__imgWrapper--207288{max-width:700px}.mensHealthContentImg__imgItem--238506{height:100%}.mensHealthText--666647,.mensHealthText__simpleText--341355{font-weight:700}.mensHealthText__simpleText--759026{background-color:#fdffd0;font-style:oblique;border:2px solid #000;padding:15px;box-sizing:border-box}.mensHealthText--892807{font-weight:700}.mensHealthContentImg__imgWrapper--942005{max-width:700px}.mensHealthContentImg__imgItem--372025{height:100%}.mensHealthText__simpleText--650028{font-size:24px;line-height:31.2px;font-weight:700}.mensHealthText__simpleText--158720{font-weight:700}.mensHealthText--652927{font-weight:400}.mensHealthText--946982{font-weight:700}.mensHealthText__simpleText--125700{font-size:24px;line-height:31.2px;font-weight:700;color:#891214}.mensHealthContentImg__imgWrapper--889769{max-width:700px}.mensHealthContentImg__imgItem--853816{height:100%}.mensHealthText__simpleText--660813{font-size:24px;line-height:31.2px;color:#7f0b12}.mensHealthContentImg__imgWrapper--175095{max-width:700px}.mensHealthContentImg__imgItem--630641{height:100%}.mensHealthText__simpleText--315333{font-size:24px;line-height:31.2px;font-weight:700;color:#6c1011}.mensHealthContentImg__imgWrapper--606526{max-width:700px}.mensHealthContentImg__imgItem--505032{height:100%}.mensHealthText__simpleText--900844{font-size:24px;line-height:31.2px;font-weight:700;color:#731516}.mensHealthText--203732{color:#900b0c;text-decoration-line:underline;cursor:pointer;font-weight:700}.mensHealthContentImg__imgWrapper--913836{max-width:500px}.mensHealthContentImg__imgItem--103814{height:100%}.mensHealthText--779283{color:#811a1b;text-decoration-line:underline;cursor:pointer;font-weight:700}.mensHealthText__simpleText--715710{background-color:#fffed2;border:2px solid #000;padding:15px;margin:15px;box-sizing:border-box}.mensHealthText--134344{font-weight:700}.mensHealthText__simpleText--530071{font-size:24px;line-height:31.2px;font-weight:700;color:#ff0023}.mensHealthText--598038{color:#7d1314;text-decoration-line:underline;cursor:pointer}.mensHealthText--225675,.mensHealthText--474193,.mensHealthText--611374,.mensHealthText--724779,.mensHealthText--847146{font-weight:700}.mensHealthText__simpleText--193586{background-color:#fffed2;border:2px solid #000;padding:15px;margin:15px;box-sizing:border-box}.mensHealthText--775505{color:#820f11;text-decoration-line:underline;cursor:pointer;font-weight:700}.mensHealthText--188551,.mensHealthText--561068{font-weight:700}.mensHealthText__simpleText--518116{font-size:24px;line-height:31.2px;font-weight:700}.mensHealthText__simpleText--626782,.mensHealthText__simpleText--830286{font-weight:700}.mensHealthText--532300,.mensHealthText__simpleText--508233{font-weight:400}.mensHealthText--229412{color:#8c1122;text-decoration-line:underline;cursor:pointer;font-weight:700}.mensHealthText--894111{font-weight:700}.mensHealthText__simpleText--518424{font-weight:700;color:#ff0004;text-align:center}.mensHealthText__simpleText--803457{font-weight:400}.mensHealthText--581826{font-weight:700}.mensHealthText__simpleText--488452{font-weight:700;font-size:24px;line-height:31.2px;color:#ff0004}.coloredText__listItem--500670{font-weight:400}.coloredText--769202{font-weight:700}.coloredText--977106{color:#870d0f;text-decoration-line:underline;cursor:pointer}.mensHealthText__simpleText--261274{font-weight:400;background-color:#e0ffe6;border:2px solid #ff0004;padding:15px}.mensHealthText--841273{font-weight:700}.mensHealthText--210558{font-weight:700;color:#ff0004}.mensHealthText--139598,.mensHealthText--842647{font-weight:700}.mensHealthText__simpleText--224671{font-size:24px;line-height:31.2px;color:#000}.commentImgWrapper--633954{max-width:400px;width:100%;height:fit-content}.commentImg--510434{width:100%;object-fit:contain}.commentImgWrapper--644363{max-width:400px;width:100%;height:fit-content}.commentImg--277186{width:100%;object-fit:contain}.commentBox--392337{color:#57080a;text-decoration-line:underline;cursor:pointer}.commentBox--890608{color:#73181a;text-decoration-line:underline;cursor:pointer}.commentImgWrapper--303117{max-width:400px;width:100%;height:fit-content}.commentImg--256102{width:100%;object-fit:contain}.commentBox--196665,.commentBox--234413,.commentBox--728945{color:#971e20;text-decoration-line:underline;cursor:pointer}.commentBox--196665,.commentBox--234413{color:#a13435}.commentBox--196665{color:#651213}.commentImgWrapper--730479{max-width:400px;width:100%;height:fit-content}.commentImg--753158{width:100%;object-fit:contain}.commentBox--280654{color:#811618;text-decoration-line:underline;cursor:pointer}.commentImgWrapper--860399{max-width:400px;width:100%;height:fit-content}.commentImg--910638{width:100%;object-fit:contain}.commentBox--532986{color:#7b191a;text-decoration-line:underline;cursor:pointer}@media(max-width:1024px){.mensHealthAside{display:none}.mensHealthContentImg,.mensHealthText{width:100%}}@media(max-width:959px){.mensHealthDoors__timer .countdownTimerBox .minutes,.mensHealthDoors__timer .countdownTimerBox .seconds{font-size:17px}.mensHealthDoors__timer .countdownTimerBox .timeBg{width:unset;height:unset;line-height:32px}.mensHealthDoors__timer .countdownTimerBox .ending{font-size:17px;line-height:32px;letter-spacing:0}}@media(max-width:768px){.mensHealthNav__itemsWrapper{display:none}}@media(max-width:767px){.menHealthCom__wrapper{padding:10px}.menHealthCom{padding-bottom:10px}.mensHealthDoors__formImgWrapper{max-width:179px}}@media(max-width:575px){.mensHealthDoors__form{padding:15px}}@media(max-width:500px){.mensHealthText__mainTitle{font-size:25px}.mensHealthText__simpleText{font-size:16px}}.ring-loading{animation:loadingD 1.5s .3s cubic-bezier(.17,.37,.43,.67) infinite;width:10px;height:10px;margin:0 auto;padding:15px!important;border:7px dashed #000;border-radius:100%;display:none;margin:10px auto!important}@keyframes loadingD{0%{transform:rotate(0deg)}50%{transform:rotate(180deg)}100%{transform:rotate(360deg)}}.price__wrapper{font-size:20px}.price__old{text-decoration:line-through}.price__new{color:red;font-weight:700}.commentImg{margin-top:10px}.bg-yellow{margin:15px;box-sizing:border-box;width:calc(100% - 30px)}div.eu-prices{display:flex;align-items:center;justify-content:center;column-gap:20px;font-size:22px;font-weight:700;font-family:sans-serif;margin:0 auto}div.eu-prices-old{position:relative}div.eu-prices-old::before{content:"";position:absolute;width:100%;height:3px;top:40%;left:0;background:#000}div.eu-prices-new span{color:#f80000}
+
+
+
+
+.main-header {
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 0;
+    margin: 0 0 50px 0;
+  }
+  
+  .container {
+    max-width: 1025px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+  }
+  
+  .logo img {
+    height: 30px;
+  }
+  
+  .main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav ul li {
+    margin: 0 15px;
+  }
+  
+  .main-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .main-nav ul li a[href="#health"] {
+    border: 2px solid #e4002b;
+    padding: 5px 10px;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-primary {
+    border: 1px solid  #e4002b;
+    color: #e4002b;
+    background-color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 15px;
+    transition: .3s;
+  }
+
+  .btn-primary:hover {
+    background-color: #e4002b;
+    color: #fff;
+  }
+  
+  .sign-in {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  
+  .search-toggle, .cart {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  .search-toggle img, .cart img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .main-nav {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+  
+    .main-nav.active {
+      display: block;
+    }
+  
+    .main-nav ul {
+      flex-direction: column;
+    }
+  
+    .main-nav ul li {
+      margin: 10px 0;
+    }
+  
+    .header-actions .btn-primary,
+    .header-actions .sign-in {
+      display: none;
+    }
+  
+    .logo img {
+      height: 25px;
+    }
+  
+    .container {
+      padding: 0 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo img {
+      height: 20px;
+    }
+  
+    .search-toggle img, .cart img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .search-link img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .cart svg {
+    width: 1.35em;
+    height: 1.35em;
+  }
